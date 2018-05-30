@@ -16,21 +16,21 @@ func main() {
 	} else {
 		for i := 0; i < 26; i++ {
 			count := 0
-			for j := 0; j < len(word); j++{
-				if a[i] == word[j]{
+			for j := 0; j < len(word); j++ {
+				if a[i] == word[j] {
 					count = count + 1
 				}
 			}
-			if count == 0{
+			if count == 0 {
 				f = 1
 				
 			}
 		}
-		if f == 1{
+		if f == 1 {
 		    fmt.Println("NO")
-	    } else {
+	        } else {
 		    fmt.Println("YES")
-	      }
+	          }
 
 	 }
 
