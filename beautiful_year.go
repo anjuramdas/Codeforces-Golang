@@ -17,7 +17,7 @@ func main(){
 			fmt.Println(output_year)
 			break			
 		} else {
-		  	output_year = output_year+1
+		  	output_year = output_year + 1
 		  	
 		  }	
 	}
