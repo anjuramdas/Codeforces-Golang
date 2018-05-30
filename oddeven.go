@@ -17,7 +17,7 @@ func main() {
     	     output = (2*k) - 1
 	} else {
     	     output = (k-part) * 2
-      }
+      	  }
  
         fmt.Println(output)
 }
