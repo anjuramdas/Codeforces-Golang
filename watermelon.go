@@ -11,7 +11,7 @@ func main() {
 		} else {
 			fmt.Println("YES")
 		}
-		} else {
-			fmt.Println("NO")
-		}
+	} else {
+		fmt.Println("NO")
+	}
 }
