@@ -1,3 +1,8 @@
+/* 
+# Codeforces
+# Problem : A. Vanya and Cubes
+# URL : http://codeforces.com/problemset/problem/492/A
+*/
 package main 
 import (
 	"fmt"
