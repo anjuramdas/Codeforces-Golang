@@ -1,3 +1,8 @@
+/* 
+# Codeforces
+# Problem : A. Football
+# URL : http://codeforces.com/contest/96/problem/A
+*/
 package main
 import (
 	"fmt"
