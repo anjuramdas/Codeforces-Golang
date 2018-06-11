@@ -1,3 +1,9 @@
+/* 
+# Codeforces
+# Problem : B. T-primes
+# URL : http://codeforces.com/contest/230/problem/B
+# A number is a T prime if it is a perfect square and its square root is a prime number.
+*/
 package main
 
 import (
