@@ -1,3 +1,8 @@
+/* 
+# Codeforces
+# Problem : A. Wrong Subtraction
+# URL : http://codeforces.com/problemset/problem/977/A
+*/
 package main
 import "fmt"
 func main() {
