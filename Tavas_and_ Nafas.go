@@ -10,7 +10,7 @@ import (
 func main() {
 	var s int
 	fmt.Scan(&s)
-    array1 := []string{"zero","one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"}
+        array1 := []string{"zero","one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"}
 	array2 := []string{"twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"}
 	if 0 <= s && s <= 19 {
 		fmt.Println(array1[s])
