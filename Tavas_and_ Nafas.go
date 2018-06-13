@@ -1,3 +1,8 @@
+/* 
+# Codeforces
+# Problem : A. Tavas and Nafas
+# URL : http://codeforces.com/problemset/problem/535/A
+*/
 package main
 import (
 	"fmt"
