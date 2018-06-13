@@ -1,3 +1,8 @@
+/* 
+# Codeforces
+# Problem : A. Summer Camp
+# URL : http://codeforces.com/problemset/problem/672/A
+*/
 package main
 import (
 	"fmt"
