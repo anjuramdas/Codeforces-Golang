@@ -1,3 +1,8 @@
+/* 
+# SPOJ
+# Problem : ELEVTRBL
+# URL : https://www.spoj.com/problems/ELEVTRBL/
+*/
 package main
 
 import "fmt"
@@ -22,18 +27,6 @@ func (q *Queue) Dequeue() (e interface{}) {
 func (q *Queue) Size() int {
 	return len(q.elements)
 }
-func Min(x, y int64) int64 {
-	if x > y {
-		return y
-	}
-	return x
-}
-func Max(x, y int64) int64 {
-	if x < y {
-		return y
-	}
-	return x
-}
 func main() {
 	var floors, start, goal, up, down, up_floor, down_floor int64
 	fmt.Scan(&floors, &start, &goal, &up, &down)
@@ -49,7 +42,7 @@ func main() {
 			q := NewQueue()
 			q.Enqueue(start)
 			r := q.Size()
-			for r > 0 {
+			for r > 0 { //BFS
 				val := q.Dequeue().(int64)
 				up_floor = val + up
 				down_floor = val - down
